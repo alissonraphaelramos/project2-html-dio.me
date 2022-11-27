@@ -1,0 +1,135 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #eaeaea;
+    display: flex;
+    justify-content: center;
+}
+
+.menu > ul> li {
+    padding: 10px;
+    list-style: none;
+    padding-left: 0;
+}
+.menu > ul {
+    padding-left: 0;
+}
+.menu > ul > li > a {
+    text-decoration: none;
+    color: #444444;
+}
+.menu > ul > li > a:hover {
+    color: #778899;
+}
+
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: #eaeaea;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+    background-color: #eaeaea;
+}
+.menu {
+    width: 15%;
+    padding: 10px 20px 0px;
+    background-color: #eaeaea;
+}
+.header {
+    background-color: #eaeaea;
+    height: 150px;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+.footer {
+    background-color: #1f1e1e;
+    min-height: 100px;
+    color: white;
+}
+
+.footer > ul >li > a {
+    text-decoration: none;
+    color: white;
+}
+.footer > ul >li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 0 0 15px;  
+}
+.footer > ul {
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.copy-right {
+    padding-left: 12px;
+}
+
+div > .separator {
+	list-style: none;
+	padding: 0;
+	width: 100%;
+}
+
+div > .separator {
+	padding: .5em 0;
+	border-bottom: 1px solid #CCC;
+}
+
+p {
+    font-family: Barlow;
+    font-size: 14px;
+    color: rgb(68, 68, 68);
+}
+
+h1, h4{
+    font-family: "Recoleta Bold";
+    color: #444444;
+
+}
+h2 {
+    font-family: "Recoleta Bold";
+    color: #444444;
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    font-family: "Recoleta Bold";
+    color: #444444;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.footer > p {
+    color: white;
+}
+
+.content > h4 {
+    margin: 0;
+    padding-bottom: 5px;
+}
+
+fieldset
+{
+  width:300px;
+  height:250px;
+}
+legend {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+input{
+    position: absolute;
+    width:225px;
+    left: 330px;
+}
