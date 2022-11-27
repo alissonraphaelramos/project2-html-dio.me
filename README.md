@@ -1,1 +1,1 @@
-# project2-html-dio.me
+Criação de um site de uma clínica veterinaria ficticia com tudo visto no módulo do curso, os temas abordados foram: formulários, estruturação e formatação de texto básica, mídias e tabelas, além de outros recursos.
