@@ -1,10 +1,16 @@
 html, body {
     margin: 0;
 }
+html {
+    height: 100%;
+    min-height: 100%;
+}
 body {
     background-color: #eaeaea;
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    min-height: 100%;
 }
 
 .menu > ul> li {
@@ -54,6 +60,7 @@ body {
     background-color: #1f1e1e;
     min-height: 100px;
     color: white;
+    margin-top: auto;
 }
 
 .footer > ul >li > a {
